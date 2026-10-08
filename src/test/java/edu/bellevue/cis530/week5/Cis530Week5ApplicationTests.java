@@ -1,4 +1,4 @@
-package edu.bellevue.cis530_week5;
+package edu.bellevue.cis530.week5;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
