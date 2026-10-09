@@ -42,8 +42,8 @@ public class StudentController {
 
     // Update a student (must also update the profile)
     @PutMapping("/{id}")
-    public ResponseEntity<Student> updateStudent(@Valid @PathVariable Long id,
-                                               @RequestBody Student student) {
+    public ResponseEntity<Student> updateStudent(@PathVariable Long id,
+                                                 @Valid @RequestBody Student student) {
         return ResponseEntity.ok().body(studentService.updateStudent(id, student));
     }
 
